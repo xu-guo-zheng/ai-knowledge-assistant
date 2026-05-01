@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+logs/
+vector_store/
+data/
+model/
+
+.env
