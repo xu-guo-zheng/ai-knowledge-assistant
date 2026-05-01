@@ -1,9 +1,28 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-logs/
-vector_store/
-data/
+# 环境变量
+.env
+
+# 模型文件（绝对不能上传）
 model/
 
-.env
+# 向量数据库（FAISS）
+vector_store/
+
+# 数据文件
+data/
+
+# 日志
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
